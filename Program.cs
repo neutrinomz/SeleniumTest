@@ -17,9 +17,9 @@ public class Seleniumtest
         driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru/");
         Thread.Sleep(3000);
         var login = driver.FindElement(By.Id("Username"));
-        login.SendKeys("zubkoff.m@yandex.ru");
+        login.SendKeys("***");
         var password = driver.FindElement(By.Id("Password"));
-        password.SendKeys("41260Trat31193.");
+        password.SendKeys("***");
         Thread.Sleep(3000);
         var button = driver.FindElement(By.Name("button"));
         button.Click();

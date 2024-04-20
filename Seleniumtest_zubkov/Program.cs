@@ -36,7 +36,7 @@ public class SleniumTest
         return (uuid, communiturl); 
     }
  
-    //
+    //Желательно добавлить OneTimeSetUp в котором через Базу Данных удалять все сообщества, чтобы тесты проходили на чистом окружении
     [SetUp]
     public void SetUp()
     {   
